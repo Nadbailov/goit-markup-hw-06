@@ -213,6 +213,131 @@ gap: 40px;
         line-height: 1.5;
     }
  }
+
+.mob-menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    padding: 24px 24px 40px 16px;
+}
+
+.mob-close-btn {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 24px;
+    width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        padding: 0;
+            cursor: pointer;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            background-color:transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.mob-close-btn:focus {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff;
+}
+
+.menu-close {}
+
+.modal-close-icon {}
+
+.header-mob {
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 40px;
+        width: 151px;
+            height: 200px;
+            margin-bottom: 168px;
+}
+
+
+
+.header-mob-item {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.current-mob {
+color: #404bbf;
+}
+
+.mob-contacts {
+    margin-bottom: 48px;
+}
+
+.mob-contacts-item {
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 24px;
+        width: 193px;
+            height: 72px;
+}
+
+.mob-contacts-list {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #434455;
+        font-style: normal;
+}
+
+.address-mob {
+    color: #4d5ae5;
+}
+
+.mob-icon {
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 40px;
+        width: 280px;
+            height: 40px;
+}
+
+.mob-icon-item {
+        width: 40px;
+            height: 40px;
+}
+
+.mob-link {
+    width: 100%;
+        height: 100%;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-link:focus {
+    background-color: #404bbf;
+}
+
+.mob-link-icon {
+    fill: #f4f4fd;
+    width: 24px;
+    height: 24px;
+}
+
 /*------------------ Main ----------------*/
 
 /*---------------- Effective Solutions ----------------*/
