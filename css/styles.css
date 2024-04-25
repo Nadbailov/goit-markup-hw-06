@@ -221,6 +221,10 @@ gap: 40px;
     top: 0;
     background: #fff;
     padding: 24px 24px 40px 16px;
+    overflow: auto;
+    display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 }
 
 .mob-close-btn {
