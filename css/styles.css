@@ -220,7 +220,7 @@ gap: 40px;
     position: fixed;
     top: 0;
     background: #fff;
-    padding: 24px 24px 40px 16px;
+    padding: 72px 24px 40px 16px;
     overflow: auto;
     display: flex;
         flex-direction: column;
@@ -231,9 +231,12 @@ gap: 40px;
 }
 
 .mob-close-btn {
-    display: block;
-    margin-left: auto;
-    margin-bottom: 24px;
+    position: absolute;
+        top: 24px;
+        right: 24px;
+    /* margin-left: auto;
+    margin-bottom: 24px; */
+
     width: 24px;
         height: 24px;
         border-radius: 50%;
@@ -263,9 +266,9 @@ gap: 40px;
         justify-content: flex-start;
         flex-direction: column;
         gap: 40px;
-        width: 151px;
+        /* width: 151px;
             height: 200px;
-            margin-bottom: 168px;
+            margin-bottom: 168px; */
 }
 
 
@@ -284,6 +287,7 @@ color: #404bbf;
 
 .mob-contacts {
     margin-bottom: 48px;
+    margin-top: auto;
 }
 
 .mob-contacts-item {
@@ -779,7 +783,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     width: 100%;
 /* width: calc((100% - 48px ) / 3); */
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
 
