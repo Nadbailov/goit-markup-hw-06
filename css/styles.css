@@ -798,11 +798,19 @@ text-align: left;
     gap: 72px;
 }
 
-   @media screen and (min-width: 768px) {}
+   @media screen and (min-width: 768px) {
+    .footer-container {
+width: 584px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: start;
+        gap: 72px 24px;
+    }
+   }
 
    @media screen and (min-width: 1158px) {
     .footer-container {
-        flex-direction: row;
+        width: auto;
         gap: 0;
         align-items: baseline;
     }
@@ -908,7 +916,7 @@ font-size: 12px;
     line-height: 2;
     }
 
-        @media screen and (min-width: 1158px) {
+                @media screen and (min-width: 768px) {
             .footer-check {
                 width: 264px;
             }
@@ -986,14 +994,14 @@ padding: 72px 24px 24px 24px;
 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 768px) {
     .modal {
        width: 408px;
     min-height: 584px;  
     }
 }
    
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1158px) {
     .modal {
         width: 408px;
         min-height: 584px;
@@ -1125,7 +1133,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    display: flex;
+    align-items: center;
 }
+
+
 
 .modal-field-span {
     width: 16px;
@@ -1138,6 +1150,7 @@ align-items: center;
 justify-content: center;
 fill: transparent;
 margin-right: 8px;
+flex-shrink: 0;
 }
 
 .modal-field-input:focus + .modal-field-label .modal-field-span {
