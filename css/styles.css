@@ -225,6 +225,9 @@ gap: 40px;
     display: flex;
         flex-direction: column;
         justify-content: space-between;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
 }
 
 .mob-close-btn {
